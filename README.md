@@ -110,7 +110,7 @@ MILVUS_URL=http://localhost:19530
 
 这是使用 `ChatOllama` 的最简单方法。
 
-唯一需要的是复制一份 [docker-compose.yaml](https://github.com/819-hao/chat-ollama/blob/main/docker-compose.yaml)。请下载它，并执行以下命令以启动 `ChatOllama`：
+唯一需要的是复制一份 [docker-compose.yaml](https://github.com/819-hao/chat-ollama-plus/blob/main/docker-compose.yaml)。请下载它，并执行以下命令以启动 `ChatOllama`：
 
 ```sh
 $ docker compose up
@@ -150,7 +150,7 @@ $ docker compose exec ollama ollama pull nomic-embed-text:latest
 
 #### Docker 容器数据存储
 
-有两个类型的数据存储：向量数据和关系数据。详细信息请参阅 [docker-compose.yaml](https://github.com/sugarforever/chat-ollama/blob/main/docker-compose.yaml)。
+有两个类型的数据存储：向量数据和关系数据。详细信息请参阅 [docker-compose.yaml](https://github.com/819-hao/chat-ollama-plus/blob/main/docker-compose.yaml)。
 
 ##### 向量数据
 
@@ -162,7 +162,7 @@ $ docker compose exec ollama ollama pull nomic-embed-text:latest
 
 #### 代理
 
-我们提供了代理配置功能。对于特定的使用，请点击 [这里](https://github.com/sugarforever/chat-ollama/blob/main/docs/proxy-usage.md)。
+我们提供了代理配置功能。对于特定的使用，请点击 [这里](https://github.com/819-hao/chat-ollama-plus/blob/main/docs/proxy-usage.md)。
 
 ## 开发者指南
 
